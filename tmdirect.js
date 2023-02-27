@@ -11,7 +11,7 @@ var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds(
 sleep(3000);
 
 tuzi=class("android.widget.Image").depth(13).indexInParent(0).findOne();
-tuzi.click;
+tuzi.click();
 toast("hi,");
 sleep(4000);
 click(450, 800);
