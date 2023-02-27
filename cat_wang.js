@@ -8,8 +8,24 @@ toast("let me show u a romantic story:")
 var baba_nongchang = text('芭芭农场').findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(3000);
+click(870,2100);
+sleep(3000);
+var wancheng = className("android.widget.Button").text("去完成").findone();
+  for (var j = 0; j < 3; j++) {
+      wancheng.click();
+      sleep(3000);
 
-click(80, 500);
+      // 滑动窗口
+      swipe(80, 1500, 80, 500, 1000);
+      sleep(18000);   //18000ms
+
+      // 返回
+      back();
+      sleep(3000);
+ 
+  }
+back();
+
 var i = 0;
 while(i<50){
   i++;
