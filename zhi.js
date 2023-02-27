@@ -1,7 +1,7 @@
 auto.waitFor();
 setScreenMetrics(1176, 2400);
 home();
-launchApp("手机淘宝");
+launchApp("支付宝");
 sleep(2000);
 toast("let me show u a romantic story:")
 
@@ -9,7 +9,27 @@ var baba_nongchang = text('芭芭农场').findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(3000);
 
-click(80, 500);
+var renwu = text("任务列表").findone(2000);
+var click_true = click(renwu.bounds().centerX(), renwu.bounds().centerY());
+sleep(3000);
+var wancheng = className("android.view.View").indexInParent("8").findone();
+  for (var j = 0; j < 3; j++) {
+      wancheng.click();
+      sleep(3000);
+
+      // 滑动窗口
+      swipe(80, 1500, 80, 500, 1000);
+      sleep(18000);   //18000ms
+      swipe(80, 1500, 80, 500, 1000);
+      sleep(500);
+      // 返回
+      back();
+      sleep(3000);
+ 
+  }
+click(500,400);
+
+
 var i = 0;
 while(i<50){
   i++;
