@@ -1,7 +1,7 @@
 auto.waitFor();
 setScreenMetrics(1176, 2400);
 home();
-launchApp("手机淘宝");
+launchApp("淘宝");
 sleep(2000);
 toast("let me show u a romantic story:")
 
