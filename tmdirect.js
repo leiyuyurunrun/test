@@ -10,15 +10,15 @@ var baba_nongchang = text("芭芭农场").findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(3000);
 
-className("android.widget.Image").bounds(15,1923,180,2106).click();
-sleep(1000);
+className("android.widget.Image").bounds(15,1923,180,2160).click();
+sleep(4000);
 click(450, 800);
 back();
-sleep(1000);
+sleep(3000);
 var i = 0;
 while(i<50){
   i++;
-	click(500, 1800);
+	click(500, 2000);
   sleep(1000);
   if(i==10){
 	toast("王猫是个漂亮女孩,");
