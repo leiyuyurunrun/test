@@ -14,5 +14,3 @@ while(i<100){
 	click(500, 1900);
   sleep(1000);
 }
-console.show()
-log("完成");
