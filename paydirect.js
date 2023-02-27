@@ -12,7 +12,7 @@ sleep(5000);
 
 var renwu=text("任务列表").depth(15).findOne();
 renwu.click();
-click(950, 1800);
+
 sleep(3000);
   for (var j = 0; j < 3; j++) {
       click(900, 1400);
