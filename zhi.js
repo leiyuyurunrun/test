@@ -9,8 +9,7 @@ var baba_nongchang = text('芭芭农场').findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(3000);
 
-var renwu = text('任务列表').findOne(2000);
-var click_true = click(renwu.bounds().centerX(), renwu.bounds().centerY());
+click(1050,1900);
 sleep(3000);
 var wancheng = className("android.view.View").indexInParent("8").findone(2000);
   for (var j = 0; j < 3; j++) {
