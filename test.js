@@ -9,7 +9,7 @@ sleep(3000);
 
 click(80, 500);
 var i = 0;
-while(i<200){
+while(i<100){
   i++;
 	click(500, 1900);
   sleep(1000);
