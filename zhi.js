@@ -2,7 +2,7 @@ auto.waitFor();
 setScreenMetrics(1176, 2400);
 home();
 launchApp("支付宝");
-sleep(2000);
+sleep(8000);
 toast("let me show u a romantic story:")
 
 var baba_nongchang = text('芭芭农场').findOne(2000);
