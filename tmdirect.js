@@ -12,7 +12,7 @@ sleep(3000);
 
 tuzi=className("android.widget.Image").depth(13).indexInParent(0).findOne();
 tuzi.click();
-toast("hi,");
+toast("romantic story");
 sleep(4000);
 click(450, 800);
 back();
@@ -25,11 +25,20 @@ while(i<50){
   if(i==10){
 	toast("王猫是个漂亮女孩,");
  }
+	if(i==15){
+	toast("a beautiful girl,");
+ }
  if(i==20){
 	toast("曹十三是个帅小伙,");
  }
+	if(i==25){
+	toast("handsome boy,");
+ }
  if(i==30){
 	toast("命运让他们相遇了.");
+ }
+if(i==35){
+	toast("they ran across,");
  }
  if(i==40){
 	toast("他们培育了他们的爱情树,");
