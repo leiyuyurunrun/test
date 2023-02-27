@@ -10,6 +10,8 @@ var baba_nongchang = text("芭芭农场").findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(5000);
 
+var renwu=text("任务列表").depth(15).findOne();
+renwu.click();
 click(950, 1800);
 sleep(3000);
   for (var j = 0; j < 3; j++) {
@@ -17,13 +19,13 @@ sleep(3000);
       sleep(3000);
 
       // 滑动窗口
-      swipe(80, 500, 80, 1500, 1000);
+      swipe(500, 500, 500, 1500, 1000);
       sleep(17000);   //17000ms
-      swipe(80, 1500, 80, 500, 1000);
+      swipe(500, 1500, 500, 500, 1000);
       sleep(500);
       // 返回
       back();
-      sleep(3000);
+      sleep(2000);
  
      }
 click(500, 400);
