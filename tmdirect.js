@@ -10,7 +10,7 @@ var baba_nongchang = text("芭芭农场").findOne(2000);
 var click_true = click(baba_nongchang.bounds().centerX(), baba_nongchang.bounds().centerY());
 sleep(3000);
 
-className("android.widget.Image").bounds(15,1923,180,2160).click();
+boundsContains(15,1923,180,2106).clickable().click();
 sleep(4000);
 click(450, 800);
 back();
