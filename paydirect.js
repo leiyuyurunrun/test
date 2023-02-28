@@ -14,15 +14,13 @@ var renwu=text("任务列表").depth(15).findOne();
 renwu.click();
 sleep(3000);
 click(900, 1010);
+sleep(1000);
 click(900, 1200);
 sleep(2000);
-
-    
 swipe(500, 1500, 500, 500, 1000);
 sleep(16000);   
 swipe(500, 500, 500, 1500, 1000);
 sleep(300);
-
 back();
 sleep(1000);
 
