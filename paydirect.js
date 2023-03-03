@@ -1,8 +1,6 @@
 
 auto.waitFor();
 setScreenMetrics(1080, 2240);
-home();
-launchApp("支付宝");
 sleep(3000);
 
 var baba_nongchang = text('芭芭农场').findOne(2000);
