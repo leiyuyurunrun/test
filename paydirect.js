@@ -11,7 +11,7 @@ var renwu=text("任务列表").depth(15).findOne();
 renwu.click();
 sleep(3000);
 click(900, 1010);
-sleep(1000);
+sleep(4000);
 
 
 
